@@ -1,5 +1,6 @@
+Sandwich = Struct.new(:taste, :toppings)
 # RSpec.describe block is an example group (keeps related tests together, i.e. a sandwich)
-RSpec.describe 'An idea sandwich' do
+RSpec.describe 'An ideal sandwich' do
   # it block is an example of the sandwich's use, or a test case
   it 'is delicious' do
     # Arrange/Act/Assert pattern
