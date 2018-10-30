@@ -9,3 +9,11 @@
 # Focusing on specific test cases
 # fcontext, fit, fdescribe
 # config.filter_run_when_matching(focus: true)
+
+# Pending test cases
+# Just leave it 'is light in colour' incomplete.
+# Can even write an expect abstraction by putting a pending 'Color not implemented yet'
+# above the expect(coffee.color).to be(:light)
+# "Failures listed are expected errors"
+# It will also remind you to remove the 'pending' after features are implemented
+# via a No Error was raised message.
